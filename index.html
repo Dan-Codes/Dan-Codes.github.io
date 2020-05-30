@@ -9,7 +9,7 @@
     <meta name="description" content="Daniel's Webpage" />
     <meta name="author" content="Daniel Li" />
     <meta property="og:image" content="https://dan-codes.github.io/" />
-    <meta property="og:description" content="This is just an example page." />
+    <meta property="og:description" content="Check out Dan's humble website" />
     <title>Daniel's Website</title>
 
     <link
@@ -90,11 +90,8 @@
           Full-Stack Web | Android &amp; iOS Developer
         </p>
       </div>
-      <button
-        class="btn btn-secondary"
-        onclick="window.open('lib/resume.pdf', '_blank');"
-      >
-        Resume
+      <button class="btn btn-secondary">
+        <a href="lib/resume.pdf" target="_blank"> Resume </a>
       </button>
     </header>
     <section class="page-section portfolio" id="portfolio">
@@ -202,7 +199,7 @@
               />
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-5">
+          <!-- <div class="col-md-6 col-lg-4 mb-5">
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
@@ -223,7 +220,7 @@
                 alt="Submarine"
               />
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -337,11 +334,10 @@
                     reviews primarily for college students looking to find
                     housing. The problem me and my team were trying to solve was
                     the need for a platform to easily see which places were good
-                    and the weed out the ones that weren't. In a team, I worked
-                    to design and build the back-end infrastructure. The app
-                    follows the MVC model. Some of the libraries we used were,
-                    Google Map's API, Firestore, SmartStreet API, Async/await
-                    lib.
+                    and the ones that werent'. In a team, I worked to design and
+                    build the back-end infrastructure. The app follows the MVC
+                    model. Some of the libraries we used were, Google Map's API,
+                    Firestore, SmartStreet API, Async/await lib.
                   </p>
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>Close Window
@@ -505,10 +501,25 @@
                   </div>
                   <!-- Portfolio Modal - Image-->
                   <div
-                    id="carouselExampleControls"
+                    id="carouselExampleIndicators"
                     class="carousel slide"
                     data-ride="carousel"
                   >
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="2"
+                      ></li>
+                    </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img
@@ -527,21 +538,21 @@
                       <div class="carousel-item">
                         <img
                           class="d-block w-100"
-                          src="assets/img/portfolio/Annotation 2020-05-29 182351.png"
+                          src="assets/img/portfolio/Annotation 2020-05-29 182444.png"
                           alt="Third slide"
                         />
                       </div>
                       <div class="carousel-item">
                         <img
                           class="d-block w-100"
-                          src="assets/img/portfolio/Annotation 2020-05-29 182444.png"
-                          alt="Fourth slide"
+                          src="assets/img/portfolio/Annotation 2020-05-29 182351.png"
+                          alt="Fourth Slide"
                         />
                       </div>
                     </div>
                     <a
                       class="carousel-control-prev"
-                      href="#carouselExampleControls"
+                      href="#carouselExampleIndicators"
                       role="button"
                       data-slide="prev"
                     >
@@ -553,7 +564,7 @@
                     </a>
                     <a
                       class="carousel-control-next"
-                      href="#carouselExampleControls"
+                      href="#carouselExampleIndicators"
                       role="button"
                       data-slide="next"
                     >
@@ -670,6 +681,98 @@
         </div>
       </div>
     </section>
+
+
+    <section class="page-section" id="contact">
+      <div class="container">
+        <!-- Skill Section Heading-->
+        <div class="text-center">
+          <h2 class="page-section-heading text-secondary d-inline-block mb-0">
+            Skills
+          </h2>
+
+          <!-- Icon Divider-->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+  
+
+          <div class="row">
+            
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="column">
+                <div class="columnText rightTransition">
+                  <h5 class="mb-4">Proficient</h5>
+                  <div class="pre-wrap lead mb-0">Java</div>
+                  <!-- EDIT THIS! -->
+                  <div class="pre-wrap lead mb-0">Python</div>
+                  <!-- EDIT THIS! -->
+                  <div class="pre-wrap lead mb-0">Swift</div>
+                  <!-- EDIT THIS! -->
+                  <div class="pre-wrap lead mb-0">Kotlin</div>
+                  <!-- EDIT THIS! -->
+                </div>
+              </div>
+            </div>
+            <!-- Footer Social Icons-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="column">
+                <div class="columnText rightTransition">
+                  <h5 class="mb-4">Familiar</h5>
+                  <div class="pre-wrap lead mb-0">NodeJS</div>
+                  <!-- EDIT THIS! -->
+                  <div class="pre-wrap lead mb-0">NoSQL & SQL</div>
+                  <!-- EDIT THIS! -->
+                  <div class="pre-wrap lead mb-0">MVC/MVVM</div>
+                  <!-- EDIT THIS! -->
+                  <div class="pre-wrap lead mb-0">REST API</div>
+                  <!-- EDIT THIS! -->
+                </div>
+              </div>
+            </div>
+        
+
+          <!-- Footer About Text-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="column">
+              <div class="columnText rightTransition">
+                <h5 class="mb-4">Operating Systems</h5>
+                <!-- EDIT THIS! -->
+                <div class="pre-wrap lead mb-0">Linux</div>
+                <!-- EDIT THIS! -->
+                <div class="pre-wrap lead mb-0">Mac OSX</div>
+                <!-- EDIT THIS! -->
+                <div class="pre-wrap lead mb-0">Windows</div>
+                <!-- EDIT THIS! -->
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+
+
+    <section class="page-section bg-primary text-white mb-0" id="about">
+      <div class="container">
+<!-- About Section Heading-->
+    <div class="text-center">
+  <h2 class="page-section-heading d-inline-block text-white">Work</h2>
+</div>
+<!-- Icon Divider-->
+<div class="divider-custom divider-light">
+  <div class="divider-custom-line"></div>
+  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+  <div class="divider-custom-line"></div>
+</div>
+      </div>
+        
+        
+    </section>
+      
+
+
     <section class="page-section" id="contact">
       <div class="container">
         <!-- Contact Section Heading-->
@@ -764,15 +867,29 @@
         ><i class="fa fa-chevron-up"></i
       ></a>
     </div>
+    <!-- GSAP Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Contact form JS-->
-    <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
+    <!-- <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script> -->
     <!-- Core theme JS-->
+
+    <!-- Transition animations -->
+
+
+
     <script src="js/scripts.js"></script>
+
+
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src="lib/jquery.appear-master/jquery.appear.js"></script>
+    <script src="lib/scroll.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
